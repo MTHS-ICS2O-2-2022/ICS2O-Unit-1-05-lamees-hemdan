@@ -23,20 +23,24 @@
         <div class="page-conteny">
           Enter the length of a sqaure
         </div>
-        <!-- Expandable Textfield -->
+        <!-- Simple Textfield -->
         <form action="#">
-          <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
-            <label class="mdl-button mdl-js-button mdl-button--icon" for="sample6">
-              <i class="material-icons">search</i>
-            </label>
-            <div class="mdl-textfield__expandable-holder">
-              <input class="mdl-textfield__input" type="text" id="sample6">
-              <label class="mdl-textfield__label" for="sample-expandable">Expandable Input</label>
-            </div>
+          <div class="mdl-textfield mdl-js-textfield">
+            <input class="mdl-textfield__input" type="text" id="sample1">
+            <label class="mdl-textfield__label" for="sample1">Text...</label>
+            <!--Inpute pattern Atribute-->
+            <input class="mdl-textfield--input" type="text" pattern="[0-9]*" id="demo-input" />
+            <!-- mdl-texfield__label-->
+            <label class="mdl-texfield__label" for="demo-input">Length of square (mm)</label>
+            <!--class "mdl-textfield__error"-->
+            <span class="mdl-textfield__error">input is not a number</span>
           </div>
         </form>
-          </div>
-        </form>
+        <!-- Colored FAB button with ripple -->
+        <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
+          <i class="material-icons">add</i>
+          calculate Area
+        </button>
       </main>
     </div>
   </body>
