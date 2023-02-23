@@ -10,15 +10,17 @@
   opacity: 0.001;
 }
 
-.mdl-layout--header-row {
+.mdl-layout__header-row {
   justify-content: center;
   padding: 0;
+  color: beige;
 }
 
-.md-layout--content {
+.mdl-layout__content {
   padding-left: 30pt;
   padding-top: 20pt;
   padding-right: 20pt;
+  color: beige;
 }
 
 .page-content {
