@@ -16,7 +16,7 @@
 }
 
 .md.-layout--content {
-  padding-left: 20pt;
+  padding-left: 30pt;
   padding-top: 20pt;
   padding-right: 20pt;
 }
@@ -24,9 +24,16 @@
 .page-content{
   color:bisque
   font-family:Helvetica,Arial,sans-serif;
-  font-size:2rem;
+  font-size:2 rem;
 }
 
-.body {
+body {
   background-color: coral;
+}
+
+p {
+  color: bisque;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  padding-top: 20pt;
 }
