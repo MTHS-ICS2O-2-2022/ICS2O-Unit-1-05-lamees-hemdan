@@ -1,46 +1,46 @@
 <!DOCTYPE html>
 <!--ICS2O-unit1-05-HTML-MDL -->
 <html lang="en-ca">
-  <head>
-    <meta charset="utf-8">
-    <meta name="description" content="My First MDL Webpage">
-    <meta name="keywords" content="mths, ICS2O">
-    <meta name="author" content="Lamees Hemdan">
-    <meta name="viewport" content="width=device-width, intitial-scale=1.0">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.orange-yellow.min.css" />
-    <link rel="stylesheet" href="./css/style.css">
-    <title>My First MDL Webpage</title>
-  </head>
-  <body>
-    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
-    <div class="mdl-layout mdl-js-layout mdl-layout--fixed header">
-      <header class="mdl-layout__header">
-        <div class="mdl-layout__header-row">
-          <span class="mdl-layout-title"> Material Lite Design Components</span>
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="My First MDL Webpage">
+  <meta name="keywords" content="mths, ICS2O">
+  <meta name="author" content="Lamees Hemdan">
+  <meta name="viewport" content="width=device-width, intitial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.orange-yellow.min.css" />
+  <link rel="stylesheet" href="./css/style.css">
+  <title>My First MDL Webpage</title>
+</head>
+<body>
+  <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed header">
+    <header class="mdl-layout__header">
+      <div class="mdl-layout__header-row">
+        <span class="mdl-layout-title"> Material Lite Design Components</span>
+      </div>
+    </header>
+    <main class="mdl-layout__content">
+      <div class="page-content">
+        Enter the length of a sqaure
+      </div>
+      <!-- Simple Textfield -->
+      <form action="#">
+        <div class="mdl-textfield mdl-js-textfield">
+          <!--Inpute pattern Atribute-->
+          <input class="mdl-textfield--input" type="text" pattern="[0-9]*" id="demo-input" />
+          <!-- mdl-texfield__label-->
+          <br>
+          <label class="mdl-texfield__label" for="demo-input">Length of square (mm)</label>
+          <!--class "mdl-textfield__error"-->
+          <span class="mdl-textfield__error">input is not a number</span>
         </div>
-      </header>
-      <main class="mdl-layout__content">
-        <div class="page-content">
-          Enter the length of a sqaure
-        </div>
-        <!-- Simple Textfield -->
-        <form action="#">
-          <div class="mdl-textfield mdl-js-textfield">
-            <!--Inpute pattern Atribute-->
-            <input class="mdl-textfield--input" type="text" pattern="[0-9]*" id="demo-input" />
-            <!-- mdl-texfield__label-->
-            <br>
-            <label class="mdl-texfield__label" for="demo-input">Length of square (mm)</label>
-            <!--class "mdl-textfield__error"-->
-            <span class="mdl-textfield__error">input is not a number</span>
-          </div>
-        </form>
-        <!-- Accent-colored raised button with ripple -->
-        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
-          calculate Area
-        </button>
-      </main>
-    </div>
-  </body>
+      </form>
+      <!-- Accent-colored raised button with ripple -->
+      <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+        calculate Area
+      </button>
+    </main>
+  </div>
+</body>
 </html>
